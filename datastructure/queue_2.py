@@ -8,10 +8,10 @@ result = []
 
 count = 1 
 while q :
-  if count == k :
+  if count == k :  # K번째이면 POP하기
     result.append(q.popleft())
     count = 1
-  else :
+  else : # K번째가 아니면 POP하고 다시 PUSH하기
     q.append(q.popleft())
     count += 1
 
