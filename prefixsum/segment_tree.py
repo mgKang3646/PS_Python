@@ -1,7 +1,7 @@
 
 
 arr = list(map(int,input().split())) #수열
-tree = [0]*(len(arr)*2) #세그먼트트리
+tree = [0]*(len(arr)*4) #세그먼트트리
 
 #세그먼트트리 구현
 def init_tree(start,end,node) :
